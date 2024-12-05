@@ -1,0 +1,19 @@
+{
+  "name": "devmatch",
+  "version": "1.0.0",
+  "description": "tinder like developer platform  DevMatch",
+  "main": "index.js",
+  "scripts": {
+     "dev":"nodemon src/app.js",
+     "start":"node src/app.js"
+  },
+  "keywords": [
+    "node.js",
+    "js"
+  ],
+  "author": "Vikas verma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
