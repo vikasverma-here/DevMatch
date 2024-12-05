@@ -13,9 +13,7 @@ app.use("/about", (req,res)=>{
 app.use("/content", (req,res)=>{
     res.send("content change  ")
 })
-app.use("/add", (req,res)=>{
-    res.send("address")
-})
+
 app.use( (req,res)=>{
     res.send("nothing")
 })
