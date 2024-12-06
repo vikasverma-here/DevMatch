@@ -18,17 +18,19 @@ const app = express()
 //     res.send("nothing")
 // })
 
-app.get("/user/:userId/:name ",(req,res)=>{
-    res.send({fullname:"vikas",lastName:"verma"})
-    console.log(req.params)
-})
-app.post("/user",(req,res)=>{
+// app.get("/user/:userId/:name ",(req,res)=>{
+//     res.send({fullname:"vikas",lastName:"verma"})
+//     console.log(req.params)
+// })
+// app.post("/user",(req,res)=>{
     
-    res.send("data saved to the database successfully")
-})
-app.delete("/user",(req,res)=>{
-    res.send("data deleted successfully")
-})
+//     res.send("data saved to the database successfully")
+// })
+// app.delete("/user",(req,res)=>{
+//     res.send("data deleted successfully")
+// })
+
+
 
 app.listen(7777,()=>{
     console.log("if server is listening succesfully")
